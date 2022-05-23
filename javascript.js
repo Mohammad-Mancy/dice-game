@@ -9,11 +9,11 @@ compare();
 function compare(){
 
     if(imageSrc1===imageSrc2){
-        document.getElementById("status").innerHTML = "DRAW!"
+        document.getElementById("status").innerHTML = "DRAW!";
     }else if(imageSrc1<=imageSrc2){
-        document.getElementById("status").innerHTML = "player2 wins!"
+        document.getElementById("status").innerHTML = "&#128681;player2 wins!";
     }else if(imageSrc2<=imageSrc1){
-        document.getElementById("status").innerHTML = "player1 wins!"
+        document.getElementById("status").innerHTML = "&#128681;player1 wins!";
     }
 }
 
